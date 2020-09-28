@@ -14,10 +14,8 @@ fn main(){
 	let mut start = Instant::now();
 	for _i in 0..20 {
 		loader.draw();
-		//println!("{:?}", start.elapsed());
 		while start.elapsed().as_millis() < 200 {
 		}
-		//println!("{:?}", start.elapsed().as_millis());
 		start = Instant::now();
 	}
 }
