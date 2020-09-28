@@ -10,6 +10,7 @@ const EARTHS: [char; 3] = ['🌎', '🌍', '🌏'];
 const CLOCKS: [char; 24] = ['🕐', '🕜', '🕑', '🕝', '🕒', '🕞', '🕓', '🕟', '🕔', '🕠', '🕕', '🕡', '🕖', '🕢', '🕗', '🕣', '🕘', '🕤', '🕙', '🕥', '🕚', '🕦', '🕛', '🕧'];
 
 #[allow(dead_code)]
+#[derive(Clone,Copy)]
 pub enum MoonLoaderVariant{
 	Moon,
 	Earth,
@@ -17,6 +18,7 @@ pub enum MoonLoaderVariant{
 }
 
 #[allow(dead_code)]
+#[derive(Clone,Copy)]
 pub struct MoonLoader{
 	variant: MoonLoaderVariant,
 	brackets: bool,
