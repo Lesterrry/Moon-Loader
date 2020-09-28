@@ -1,0 +1,11 @@
+[package]
+name = "moon_loader"
+version = "0.1.0"
+authors = ["Lesterrry <contact@fetchdev.host>"]
+edition = "2018"
+repository = "https://github.com/Lesterrry/Moon-Loader"
+description = "Pretty loading animation library"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
