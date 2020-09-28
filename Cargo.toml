@@ -1,6 +1,6 @@
 [package]
 name = "moon_loader"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Lesterrry <contact@fetchdev.host>"]
 edition = "2018"
 repository = "https://github.com/Lesterrry/Moon-Loader"
