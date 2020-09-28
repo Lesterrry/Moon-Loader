@@ -1,2 +1,2 @@
 # Moon-Loader
-Pretty loading animation library
+Check the 'Examples' folder for details
